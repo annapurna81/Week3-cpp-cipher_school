@@ -1,1 +1,49 @@
+#iclude<bits/stdc++.h>
+using namespace std;
+/*single
+class A{};
+class B{};
+class C: public A,public B{];
+//multilevel
+class A{};
+class B: public A{};
+class C: public B{};
+//heri
+class A{};
+class B: public A{};
+class C: public A{};
+//hybrid
+class a{};
+class B{};
+class C:public A,public B{};
+class D:public C{};
+class E:public C{};*/
+
+//single
+
+class A{
+public:
+A(){
+cout<<"A is Const.";<,endl;
+
+}
+~A(){
+cout<<"A is dest."<<endl;
+}
+};
+
+class B: public A{
+public:
+B(){
+cout<"B is const."<<endl;
+
+}
+~B(){
+cout<"B is dest."<<endl;
+
+}
+};
+int main(){
+B obj;
+}
 
