@@ -1,1 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+/*int main(){
+vector<string> solar_sys = {"mer","venus","earth","mears","jupitor","satrun","uranus"}
+vector<string>::iterator shivam = solar_sys.begin();
+vector<string>::iterator champa = solar_sys.begin();
+
+cout<<*next(shivam,5)<<endl;
+return 0;
+}*/
+
+
+
+int main(){
+list<int>l;
+l.push_back(10);
+l.push_back(20);
+l.push_front(30);
+
+list<int>::iterator it = l.begin();
+
+for(;it!=l.end();it++){
+cout<<*it<<" ";
+}
+l.push_front(120);
+l.pop_back();
+l.pop_front();
+for(;it!=l.end();it++){
+cout<<*it<<" ";
+}
+return 0;
+}
+
+
+
+
+
 
